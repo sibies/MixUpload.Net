@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+    <PropertyGroup>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+
+		<PackageIcon>mixupload.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/sibies/MixUpload.Net</RepositoryUrl>
+
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageProjectUrl>https://sibies.ro</PackageProjectUrl>
+		<Authors>Sibies Soft</Authors>
+		<Company>Sibies Soft</Company>
+		<Product>MixUpload.Net</Product>
+		<Copyright>Copyright © Sibies Soft</Copyright>
+		<PackageTags>MixUpload Record pool for DJs, dj pool, mp3 pool, music pool</PackageTags>
+		<NeutralLanguage>ro</NeutralLanguage>
+		<Version>1.0.0</Version>
+		<Title>MixUpload.com for .Net</Title>
+		<Description>MixUpload.com .Net client</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\mixupload.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+</Project>
